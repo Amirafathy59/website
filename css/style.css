@@ -30,6 +30,8 @@
 
 
 
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3556,6 +3558,7 @@ input[type="button"].btn-block {
   align-items: center; }
 
 .navbar-toggler {
+  
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -3577,13 +3580,21 @@ input[type="button"].btn-block {
   background-size: 100% 100%; }
 
 @media (max-width: 575.98px) {
+  
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; 
+ }
+ 
+  
+   }
 
 @media (min-width: 576px) {
+ 
+  
   .navbar-expand-sm {
+    
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row nowrap;
@@ -3606,13 +3617,14 @@ input[type="button"].btn-block {
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
-      display: -webkit-box !important;
-      display: -ms-flexbox !important;
-      display: flex !important;
+      
       -ms-flex-preferred-size: auto;
       flex-basis: auto; }
     .navbar-expand-sm .navbar-toggler {
-      display: none; } }
+      display: none; }
+    
+     
+     }
 
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
@@ -3621,7 +3633,11 @@ input[type="button"].btn-block {
     padding-left: 0; } }
 
 @media (min-width: 768px) {
+  .navbar-expand-md .pic{
+    display: none !important;
+  }
   .navbar-expand-md {
+    
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row nowrap;
@@ -6417,6 +6433,9 @@ button.bg-dark:focus {
 .w-75 {
   width: 75% !important; }
 
+  .pic{
+    width: 150% !important;
+  }
 .w-100 {
   width: 100% !important; }
 
@@ -8145,7 +8164,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #fff;
-      position: relative;
+      position:relative ;
       top: 0;
       padding: 10px 15px; } }
   .ftco-navbar-light .navbar-brand {
@@ -9731,3 +9750,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+
+   
