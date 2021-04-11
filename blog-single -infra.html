@@ -306,10 +306,17 @@
 			<input type="text" class="form-control" placeholder="Your Email">
 		  </div>
 		  <div class="form-group">
-			<input type="text" class="form-control" placeholder="Subject">
+			
+			<input list="service" id="servlist" name="servlist" placeholder="Solutions" class="form-control" />
+
+			<datalist id="service">
+				<option value="Network Solutions">
+					<option value="Software Solutions">
+			</datalist>
+
 		  </div>
 		  <div class="form-group">
-			<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+			<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Description"></textarea>
 		  </div>
 		  <div class="form-group">
 			  <button type="submit" class="form-control submit px-3">Send A Message</button>
